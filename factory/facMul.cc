@@ -40,6 +40,7 @@
 #include "FLINTconvert.h"
 #include "flint/fq_nmod_vec.h"
 #if __FLINT_RELEASE >= 20503
+#include "flint/mpn_extras.h"
 #include "flint/fmpz_mod.h"
 #endif
 #endif

@@ -10,6 +10,7 @@
 
 #ifdef HAVE_FLINT
 
+#include <gmp.h>
 #include <flint/flint.h>
 #include <flint/fmpz.h>
 #include <flint/fmpq.h>
